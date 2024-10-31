@@ -14,7 +14,7 @@ function AppLayout(props) {
       {isLoading && <Loader />}
       <Header />
       <div
-        className={`overflow-auto ${location.pathname === "/" ? "bg-[url('/src/assets/pizza-bg.png')] bg-cover bg-top" : ""}`}
+        className={`overflow-auto ${location.pathname === "/" ? "bg-[url('/src/assets/pizza-bg.jpg')] bg-cover bg-top" : ""}`}
       >
         <main className={"mx-auto max-w-3xl"}>
           <Outlet />
